@@ -13,7 +13,8 @@
       <img
         src="https://img.freepik.com/free-photo/drythyme_1339-195.jpg"
         alt="Orenga, l'herba essencial al restaurant."
-        width="220" height="104"
+        width="220"
+        height="104"
       />
       <nav>
         <a href="#restaurant">El restaurant</a>
@@ -65,18 +66,26 @@
           width="320"
           height="400"
         />
-        <dt>
-            <dl>Bambini Margherita</dl>
-            <dd>Tomàquet i mozzarella.</dd>
-            <dl>Rustica</dl>
-            <dd>Tomàquet cherry, mozzarella, xampinyons, carxofes i tonyina.</dd>
-            <dl>Salmonata Genovese</dl>
-            <dd>Mozzarella, pesto, salmó, tomàquet confitat, ricotta, oliva taggiasca, rúcula i mel.</dd>
-            <dl>4 Stagioni</dl>
-            <dd>Tomàquet, mozzarella, xampinyons, gambes, guanciale i pernil dolç.</dd>
-            <dl>Calzone Arrabbiata</dl>
-            <dd>Pizza amb salsa de tomàquet picant, xampinyons i rúcula. Farciment amb salsa Arrabbiata, embotits picants i mozzarella.</dd>
-        </dt>
+        <dl>
+          <dt>Bambini Margherita</dt>
+          <dd>Tomàquet i mozzarella.</dd>
+          <dt>Rustica</dt>
+          <dd>Tomàquet cherry, mozzarella, xampinyons, carxofes i tonyina.</dd>
+          <dt>Salmonata Genovese</dt>
+          <dd>
+            Mozzarella, pesto, salmó, tomàquet confitat, ricotta, oliva
+            taggiasca, rúcula i mel.
+          </dd>
+          <dt>4 Stagioni</dt>
+          <dd>
+            Tomàquet, mozzarella, xampinyons, gambes, guanciale i pernil dolç.
+          </dd>
+          <dt>Calzone Arrabbiata</dt>
+          <dd
+            >Pizza amb salsa de tomàquet picant, xampinyons i rúcula. Farciment
+            amb salsa Arrabbiata, embotits picants i mozzarella.
+          </dd>
+        </dl>
       </section>
       <section>
         <h3>Salses per la pasta</h3>
@@ -86,70 +95,103 @@
           width="400"
           height="300"
         />
-        <dt>
-            <dl>Pesto rosso panna</dl>
-            <dd>Crema, tomàquet sec, pinyons, formatge i nous.</dd>
-            <dl>Tartufo bianco</dl>
-            <dd>Crema de tòfona blanca i cruixent de coppa.</dd>
-            <dl>Rustica</dl>
-            <dd>Bacó, olives negres, tomàquet, alfàbrega, ceba i grana padano DOP.</dd>
-            <dl>Salame e mascarpone</dl>
-            <dd>Crema de formatge mascarpone amb ibèrics, pinyons i espinacs.</dd>
-            <dl>Calabrese</dl>
-            <dd>Crema de tòfona blanca i cruixent de coppa.</dd>
-        </dt>
+        <dl>
+          <dt>Pesto rosso panna</dt>
+          <dd>Crema, tomàquet sec, pinyons, formatge i nous.</dd>
+          <dt>Tartufo bianco</dt>
+          <dd>Crema de tòfona blanca i cruixent de coppa.</dd>
+          <dt>Rustica</dt>
+          <dd>
+            Bacó, olives negres, tomàquet, alfàbrega, ceba i grana padano DOP.
+          </dd>
+          <dt>Salame e mascarpone</dt>
+          <dd>Crema de formatge mascarpone amb ibèrics, pinyons i espinacs.</dd>
+          <dt>Calabrese</dt>
+          <dd>Crema de tòfona blanca i cruixent de coppa.</dd>
+        </dl>
       </section>
     </section>
 
     <!-- RESERVES -->
     <section id="reserves">
       <h2>Reserves</h2>
-      <form action="" method="post">
+      <form action="index.html" method="post">
         <fieldset>
-          <legend>Faci la seva reserva per tenir garantida una experiència inoblidable al Restaurant Orenga</legend>
+          <legend
+            >Faci la seva reserva per tenir garantida una experiència
+            inoblidable al Restaurant Orenga</legend
+          >
           <p>
             <label for="nom">Nom</label>
-            <input type="text" name="nom" id="name" placeholder="Pep" required>
+            <input type="text" name="nom" id="nom" placeholder="Pep" required />
           </p>
           <p>
             <label for="cognom">Cognom(s)</label>
-            <input type="text" name="cognom" id="cognom" placeholder="Altafulla Valentí" required>
+            <input
+              type="text"
+              name="cognom"
+              id="cognom"
+              placeholder="Altafulla Valentí"
+              required
+            />
           </p>
           <p>
             <label for="telefon">Telèfon</label>
-            <input type="tel" name="telefon" id="telefon" placeholder="+34 643 423 521" required>
+            <input
+              type="tel"
+              name="telefon"
+              id="telefon"
+              placeholder="+34 643 423 521"
+              required
+            />
           </p>
           <p>
             <label for="mail">Correu(s) electrònic(s)</label>
-            <input type="email" name="mail" id="mail" placeholder="nom@outlook.com, nom@gmail.com" size="60" multiple required>
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="nom@outlook.com, nom@gmail.com"
+              size="60"
+              multiple
+              required
+            />
           </p>
           <p>
             <label for="comensals">Número de comensals</label>
-            <input type="number" name="comensals" id="comensals" min="1" max="50" value="4" required>
+            <input
+              type="number"
+              name="comensals"
+              id="comensals"
+              min="1"
+              max="50"
+              value="4"
+              required
+            />
           </p>
           <p>
             <span>Hi ha un o més d'un comensal menor de 5 anys?</span>
-            <br>
-            <input type="radio" id="si" name="menor" value="si" >
+            <br />
+            <input type="radio" id="si" name="menor" value="si" />
             <label for="si">Si</label>
-            <br>
-            <input type="radio" id="no" name="menor" value="no" checked>
+            <br />
+            <input type="radio" id="no" name="menor" value="no" checked />
             <label for="no">No</label>
           </p>
           <p>
             <label for="dia">Dia</label>
-            <input type="date" name="dia" id="dia" required>
+            <input type="date" name="dia" id="dia" required />
           </p>
           <p>
             <label for="hora">Hora</label>
-            <input type="time" name="hora" id="hora" list="hores-populars"/>
+            <input type="time" name="hora" id="hora" list="hores-populars" />
             <datalist id="hores-populars">
-            <option value="13:00"></option>
-            <option value="14:00"></option>
-            <option value="15:00"></option>
-            <option value="20:00"></option>
-            <option value="21:00"></option>
-            <option value="22:00"></option>
+              <option value="13:00"></option>
+              <option value="14:00"></option>
+              <option value="15:00"></option>
+              <option value="20:00"></option>
+              <option value="21:00"></option>
+              <option value="22:00"></option>
             </datalist>
           </p>
           <p>
@@ -170,24 +212,37 @@
           </p>
           <p>
             <label for="idioma">Idioma en què prefereix ser atès</label>
-            <input type="text" name="idioma" id="idioma" list="idiomes" placeholder="Català" required/>
+            <input
+              type="text"
+              name="idioma"
+              id="idioma"
+              list="idiomes"
+              placeholder="Català"
+              required
+            />
             <datalist id="idiomes">
-            <option value="Alemany"></option>
-            <option value="Anglès"></option>
-            <option value="Català"></option>
-            <option value="Espanyol"></option>
-            <option value="Francès"></option>
-            <option value="Xinès"></option>
+              <option value="Alemany"></option>
+              <option value="Anglès"></option>
+              <option value="Català"></option>
+              <option value="Espanyol"></option>
+              <option value="Francès"></option>
+              <option value="Xinès"></option>
             </datalist>
           </p>
           <p>
             <label for="comentaris">Comentaris a tenir en consideració</label>
-            <br>
-            <textarea id="comentaris" name="comentaris" rows="5" cols="40" maxlength="800"
-            placeholder="Un dels comensals és intolerant a la lactosa."></textarea>
+            <br />
+            <textarea
+              id="comentaris"
+              name="comentaris"
+              rows="5"
+              cols="40"
+              maxlength="800"
+              placeholder="Un dels comensals és intolerant a la lactosa."
+            ></textarea>
           </p>
           <p>
-            <input type="submit" value="Reservar">
+            <input type="submit" value="Reservar" />
           </p>
         </fieldset>
       </form>
@@ -197,18 +252,30 @@
     <section id="equip">
       <h2>L'equip</h2>
       <figure>
-        <img src="https://images.pexels.com/photos/2696064/pexels-photo-2696064.jpeg" 
-        alt="Joan i Maria" width="450" height="280">
+        <img
+          src="https://images.pexels.com/photos/2696064/pexels-photo-2696064.jpeg"
+          alt="Joan i Maria"
+          width="450"
+          height="280"
+        />
         <figcaption>Joan (xef) i Maria (xef i cap de cuina)</figcaption>
       </figure>
       <figure>
-        <img src="https://images.pexels.com/photos/6817133/pexels-photo-6817133.jpeg" 
-        alt="Hèctor" width="200" height="320">
+        <img
+          src="https://images.pexels.com/photos/6817133/pexels-photo-6817133.jpeg"
+          alt="Hèctor"
+          width="200"
+          height="320"
+        />
         <figcaption>Hèctor (cambrer i cap de sala)</figcaption>
       </figure>
       <figure>
-        <img src="https://images.pexels.com/photos/3801649/pexels-photo-3801649.jpeg" 
-        alt="Jasmine" width="450" height="280">
+        <img
+          src="https://images.pexels.com/photos/3801649/pexels-photo-3801649.jpeg"
+          alt="Jasmine"
+          width="450"
+          height="280"
+        />
         <figcaption>Jasmine (cambrera)</figcaption>
       </figure>
     </section>
@@ -217,76 +284,177 @@
     <footer id="contacte">
       <h2>Contacte</h2>
       <address>
+        <p> URL: <a href="#inici">https://www.restaurantorenga.cat</a> </p>
         <p>
-          URL: <a href="#inici">https://www.restaurantorenga.cat</a>
+          Correu electrònic:
+          <a href="info@restaurantorenga.cat">info@restaurantorenga.cat</a>
         </p>
-        <p>
-          Correu electrònic: <a href="info@restaurantorenga.cat">info@restaurantorenga.cat</a>
-        </p>
-        <p>
-          Telèfon: <a href="tel:+3493000000">+34 930 00 000</a>
-        </p>
+        <p> Telèfon: <a href="tel:+3493000000">+34 930 00 000</a> </p>
         <p>
           Adreça: Avinguda del Llac, 34, 08196 Sant Cugat del Vallès, Barcelona.
         </p>
-        <p>
-          Coordenades:41.44477960905445, 2.107936571164812.
-        </p>
+        <p> Coordenades:41.44477960905445, 2.107936571164812. </p>
         <p>
           Horari: De dimarts a diumenge de 12:30 a 16:30 i de 19:30 a 23:30.
         </p>
         <p>
           Xarxes socials:
-          <a target="_blank" href="https://www.youtube.com/"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="25" height="25"></a>
-          <a target="_blank" href="https://www.instagram.com/"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="25" height="25"></a>
-          <a target="_blank" href="https://twitter.com/"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="25" height="25"></a>
-          <a target="_blank" href="https://www.facebook.com/"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook" width="25" height="25"></a>
-          <a target="_blank" href="https://www.linkedin.com/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="25" height="25"></a>
+          <a target="_blank" href="https://www.youtube.com/"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"
+              alt="YouTube"
+              width="25"
+              height="25"
+          /></a>
+          <a target="_blank" href="https://www.instagram.com/"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+              alt="Instagram"
+              width="25"
+              height="25"
+          /></a>
+          <a target="_blank" href="https://twitter.com/"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+              alt="Twitter"
+              width="25"
+              height="25"
+          /></a>
+          <a target="_blank" href="https://www.facebook.com/"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png"
+              alt="Facebook"
+              width="25"
+              height="25"
+          /></a>
+          <a target="_blank" href="https://www.linkedin.com/"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+              alt="LinkedIn"
+              width="25"
+              height="25"
+          /></a>
         </p>
         <p>
-          <strong>Copyright © Restaurant Orenga, 2022. Tots els drets reservats.</strong>
-          <br>
+          <strong
+            >Copyright © Restaurant Orenga, 2022. Tots els drets
+            reservats.</strong
+          >
+          <br />
           <small>
-          Sense perjudici de les exempcions legals existents, queda prohibida la
-          reproducció, distribució, comunicació pública o transformació d'aquesta obre
-          sense l'autorització del titular dels drets, i qualsevol altre acte que en
-          contravingui els drets de propietat intel·lectual i industrial.
+            Sense perjudici de les exempcions legals existents, queda prohibida
+            la reproducció, distribució, comunicació pública o transformació
+            d'aquesta obre sense l'autorització del titular dels drets, i
+            qualsevol altre acte que en contravingui els drets de propietat
+            intel·lectual i industrial.
           </small>
-          <br>
+          <br />
           <small>
-          Per a qualsevol ús que se'n vulgui fer no previst a la llei, dirigiu-vos a: 
-          <a href="legal@restaurantorenga.cat ">legal@restaurantorenga.cat </a>
-          </small>
-          <p>
-            <a href="#inici">Tornar al principi</a>
-          </p>
-          <details>
-            <summary>Referències i atribucions</summary>
-            <ul>
-              <li><a target="_blank" href="https://www.freepik.com/free-photo/drythyme_1129589.htm">
-                Imatge de l'orenga feta per topntp26 a Freepik</a></li>
-              <li><a target="_blank" href="https://www.pexels.com/photo/differentflavor-of-pizza-on-a-wooden-table-5903319/">
-                Foto de pizzes feta per ROMAN ODINTSOV i obtinguda de Pexels</a></li>
-              <li><a target="_blank" href="https://www.pexels.com/photo/flatpasta-noodle-with-green-sauce-dish-and-cherry-tomato-on-top-1435896/">
-                Foto de pasta amb salsa feta per Engin Akyurt i obtinguda de Pexels</a></li>
-              <li><a target="_blank" href="https://www.pexels.com/photo/man-andwoman-wearing-black-and-white-striped-aprons-cooking-2696064/">
-                Foto de cuiner i cuinera feta per Elle Hughes i obtinguda de Pexels</a></li>
-              <li><a target="_blank" href="https://www.pexels.com/photo/man-in-black-veststanding-beside-a-window-6817133/">
-                Foto de cambrer feta per Yan Krukov i obtinguda de Pexels</a></li>
-              <li><a target="_blank" href="https://www.pexels.com/photo/shallowfocus-photo-of-woman-smiling-while-holding-pen-and-paper-3801649/">
-                Foto de cambrera feta per Andrea Piacquadio i obtinguda de Pexels</a></li>
-              <li><a target="_blank" href="https://cdn-icons-png.flaticon.com/512/1384/1384060.png">
-                Icona de YouTube creada per Freepik - Flaticon</a></li>
-              <li><a target="_blank" href="https://www.flaticon.com/freeicon/instagram_2111463">
-                Icona d'Instagram creada per Pixel perfect - Flaticon</a></li>
-              <li><a target="_blank" href="https://www.flaticon.com/free-icon/twitter_733579">
-                Icona de Twitter creada per Pixel perfect - Flaticon</a></li>
-              <li><a target="_blank" href="https://www.flaticon.com/freeicon/facebook_5968764">
-                Icona de Facebook creada per Freepik - Flaticon</a></li>
-              <li><a target="_blank" href="https://www.flaticon.com/free-icon/linkedin_174857">
-                Icona de LinkedIn creada per Freepik - Flaticon</a></li>
-            </ul>
-          </details>
+            Per a qualsevol ús que se'n vulgui fer no previst a la llei,
+            dirigiu-vos a:
+            <a href="legal@restaurantorenga.cat "
+              >legal@restaurantorenga.cat
+            </a>
+          </small> </p
+        ><p>
+          <a href="#inici">Tornar al principi</a>
+        </p>
+        <details>
+          <summary>Referències i atribucions</summary>
+          <ul>
+            <li
+              ><a
+                target="_blank"
+                href="https://www.freepik.com/free-photo/drythyme_1129589.htm"
+              >
+                Imatge de l'orenga feta per topntp26 a Freepik</a
+              ></li
+            >
+            <li
+              ><a
+                target="_blank"
+                href="https://www.pexels.com/photo/differentflavor-of-pizza-on-a-wooden-table-5903319/"
+              >
+                Foto de pizzes feta per ROMAN ODINTSOV i obtinguda de Pexels</a
+              ></li
+            >
+            <li
+              ><a
+                target="_blank"
+                href="https://www.pexels.com/photo/flatpasta-noodle-with-green-sauce-dish-and-cherry-tomato-on-top-1435896/"
+              >
+                Foto de pasta amb salsa feta per Engin Akyurt i obtinguda de
+                Pexels</a
+              ></li
+            >
+            <li
+              ><a
+                target="_blank"
+                href="https://www.pexels.com/photo/man-andwoman-wearing-black-and-white-striped-aprons-cooking-2696064/"
+              >
+                Foto de cuiner i cuinera feta per Elle Hughes i obtinguda de
+                Pexels</a
+              ></li
+            >
+            <li
+              ><a
+                target="_blank"
+                href="https://www.pexels.com/photo/man-in-black-veststanding-beside-a-window-6817133/"
+              >
+                Foto de cambrer feta per Yan Krukov i obtinguda de Pexels</a
+              ></li
+            >
+            <li
+              ><a
+                target="_blank"
+                href="https://www.pexels.com/photo/shallowfocus-photo-of-woman-smiling-while-holding-pen-and-paper-3801649/"
+              >
+                Foto de cambrera feta per Andrea Piacquadio i obtinguda de
+                Pexels</a
+              ></li
+            >
+            <li
+              ><a
+                target="_blank"
+                href="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"
+              >
+                Icona de YouTube creada per Freepik - Flaticon</a
+              ></li
+            >
+            <li
+              ><a
+                target="_blank"
+                href="https://www.flaticon.com/freeicon/instagram_2111463"
+              >
+                Icona d'Instagram creada per Pixel perfect - Flaticon</a
+              ></li
+            >
+            <li
+              ><a
+                target="_blank"
+                href="https://www.flaticon.com/free-icon/twitter_733579"
+              >
+                Icona de Twitter creada per Pixel perfect - Flaticon</a
+              ></li
+            >
+            <li
+              ><a
+                target="_blank"
+                href="https://www.flaticon.com/freeicon/facebook_5968764"
+              >
+                Icona de Facebook creada per Freepik - Flaticon</a
+              ></li
+            >
+            <li
+              ><a
+                target="_blank"
+                href="https://www.flaticon.com/free-icon/linkedin_174857"
+              >
+                Icona de LinkedIn creada per Freepik - Flaticon</a
+              ></li
+            >
+          </ul>
+        </details>
       </address>
     </footer>
   </body>
