@@ -1,0 +1,146 @@
+body {
+  font-family: Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  margin-top: 80px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 4px;
+  text-decoration-color: #829170;
+}
+
+h2::first-letter {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+/* CAPÇALERA */
+header {
+  text-align: center;
+}
+
+nav > a {
+  color: #829170;
+  font-size: 20px;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+nav > a:hover {
+  text-decoration: underline;
+}
+
+#restaurant > p {
+  line-height: 2em;
+}
+
+mark {
+  background-color: #d7dbd2e0;
+}
+
+/* OFERTA GASTRONOMICA */
+dl {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+dt {
+  font-weight: bold;
+  margin-left: 0px;
+  margin-bottom: 5px;
+}
+
+dd {
+  margin-left: 0px;
+  margin-bottom: 15px;
+}
+
+/* RESERVES */
+input,
+select,
+textarea {
+  border: 1.5px solid black;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+select,
+textarea,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+select:focus,
+textarea:focus {
+  background-color: #d7dbd2e0;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: #d7dbd2e0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* L'EQUIP */
+#equip > figure {
+  display: inline-block;
+  margin: 25px;
+}
+
+/* FOOTER */
+footer > address {
+  margin-bottom: 40px;
+}
+
+footer > a {
+  color: #829170;
+}
+
+.copyright,
+.inici {
+  margin-bottom: 40px;
+}
+
+.copyright > strong {
+  font-size: 12px;
+}
+
+.copyright > small {
+  font-size: 10px;
+}
+
+details > ul {
+  font-size: 14px;
+}
+
+details > ul > li {
+  margin-bottom: 10px;
+}
