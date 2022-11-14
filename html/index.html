@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant Orenga</title>
     <link rel="stylesheet" type="text/css" href="../styles/index.css" />
+    <script defer src="../scripts/index.js"></script>
   </head>
   <body>
     <!-- CAPÇALERA -->
@@ -116,7 +117,7 @@
     <!-- RESERVES -->
     <section id="reserves">
       <h2>Reserves</h2>
-      <form action="index.html" method="post">
+      <form action="index.html" method="post" id="formulari">
         <fieldset>
           <legend
             >Faci la seva reserva per tenir garantida una experiència
@@ -169,6 +170,11 @@
               value="4"
               required
             />
+            <small>
+              <span>(El preu total aproximat a 50€/persona seria de </span>
+              <output for="numeroComensals" id="preuAproximat">200</output>
+              <span>€)</span>
+            </small>
           </p>
           <p>
             <span>Hi ha un o més d'un comensal menor de 5 anys?</span>
@@ -200,7 +206,7 @@
             <select name="ubicacio" id="ubicacio">
               <optgroup label="Interior">
                 <option>Sala Itàlia</option>
-                <option>Sala Mèxic</option>
+                <option value="mexic">Sala Mèxic</option>
                 <option>Sala Argentina</option>
                 <option>Sala França</option>
               </optgroup>
@@ -243,7 +249,7 @@
             ></textarea>
           </p>
           <p>
-            <input type="submit" value="Reservar" />
+            <input type="submit" value="Reservar" id="reservar" />
           </p>
         </fieldset>
       </form>
